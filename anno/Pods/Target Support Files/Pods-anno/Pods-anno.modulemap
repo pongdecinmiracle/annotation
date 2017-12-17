@@ -1,0 +1,6 @@
+framework module Pods_anno {
+  umbrella header "Pods-anno-umbrella.h"
+
+  export *
+  module * { export * }
+}

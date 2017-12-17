@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410667DB1FE5B08700683E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410667DA1FE5B08700683E5D /* AppDelegate.swift */; };
+		410667DD1FE5B08700683E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410667DC1FE5B08700683E5D /* ViewController.swift */; };
+		410667E01FE5B08700683E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410667DE1FE5B08700683E5D /* Main.storyboard */; };
+		410667E21FE5B08700683E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410667E11FE5B08700683E5D /* Assets.xcassets */; };
+		410667E51FE5B08700683E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410667E31FE5B08700683E5D /* LaunchScreen.storyboard */; };
+		410667ED1FE5B81200683E5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 410667EC1FE5B81200683E5D /* GoogleService-Info.plist */; };
+		5A3F75E8763DCC23D7BDE066 /* Pods_TramTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6285B3CEDC2C0959B30036A /* Pods_TramTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F50EFE410FFD3A742BADD75 /* Pods-TramTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TramTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TramTime/Pods-TramTime.debug.xcconfig"; sourceTree = "<group>"; };
+		410667D71FE5B08700683E5D /* TramTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TramTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		410667DA1FE5B08700683E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410667DC1FE5B08700683E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		410667DF1FE5B08700683E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410667E11FE5B08700683E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		410667E41FE5B08700683E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		410667E61FE5B08700683E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410667EC1FE5B81200683E5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABA5FCF9C31A78B8954B3624 /* Pods-TramTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TramTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-TramTime/Pods-TramTime.release.xcconfig"; sourceTree = "<group>"; };
+		C6285B3CEDC2C0959B30036A /* Pods_TramTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TramTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410667D41FE5B08700683E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3F75E8763DCC23D7BDE066 /* Pods_TramTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B243E5E29162437890A02DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F50EFE410FFD3A742BADD75 /* Pods-TramTime.debug.xcconfig */,
+				ABA5FCF9C31A78B8954B3624 /* Pods-TramTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D51EE8C7011943DD175B86C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6285B3CEDC2C0959B30036A /* Pods_TramTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		410667CE1FE5B08700683E5D = {
+			isa = PBXGroup;
+			children = (
+				410667D91FE5B08700683E5D /* TramTime */,
+				410667D81FE5B08700683E5D /* Products */,
+				2B243E5E29162437890A02DA /* Pods */,
+				2D51EE8C7011943DD175B86C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		410667D81FE5B08700683E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410667D71FE5B08700683E5D /* TramTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410667D91FE5B08700683E5D /* TramTime */ = {
+			isa = PBXGroup;
+			children = (
+				410667DA1FE5B08700683E5D /* AppDelegate.swift */,
+				410667DC1FE5B08700683E5D /* ViewController.swift */,
+				410667DE1FE5B08700683E5D /* Main.storyboard */,
+				410667E11FE5B08700683E5D /* Assets.xcassets */,
+				410667E31FE5B08700683E5D /* LaunchScreen.storyboard */,
+				410667E61FE5B08700683E5D /* Info.plist */,
+				410667EC1FE5B81200683E5D /* GoogleService-Info.plist */,
+			);
+			path = TramTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410667D61FE5B08700683E5D /* TramTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410667E91FE5B08700683E5D /* Build configuration list for PBXNativeTarget "TramTime" */;
+			buildPhases = (
+				7A55C747EDA1D97E8ABA5B67 /* [CP] Check Pods Manifest.lock */,
+				410667D31FE5B08700683E5D /* Sources */,
+				410667D41FE5B08700683E5D /* Frameworks */,
+				410667D51FE5B08700683E5D /* Resources */,
+				978C67893DE076467BBC406C /* [CP] Embed Pods Frameworks */,
+				AF2CF828624A3E30A335C47B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TramTime;
+			productName = TramTime;
+			productReference = 410667D71FE5B08700683E5D /* TramTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410667CF1FE5B08700683E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Pongdec><MacBook";
+				TargetAttributes = {
+					410667D61FE5B08700683E5D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 410667D21FE5B08700683E5D /* Build configuration list for PBXProject "TramTime" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410667CE1FE5B08700683E5D;
+			productRefGroup = 410667D81FE5B08700683E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410667D61FE5B08700683E5D /* TramTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410667D51FE5B08700683E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410667E51FE5B08700683E5D /* LaunchScreen.storyboard in Resources */,
+				410667ED1FE5B81200683E5D /* GoogleService-Info.plist in Resources */,
+				410667E21FE5B08700683E5D /* Assets.xcassets in Resources */,
+				410667E01FE5B08700683E5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A55C747EDA1D97E8ABA5B67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TramTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		978C67893DE076467BBC406C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TramTime/Pods-TramTime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TramTime/Pods-TramTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2CF828624A3E30A335C47B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TramTime/Pods-TramTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410667D31FE5B08700683E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410667DD1FE5B08700683E5D /* ViewController.swift in Sources */,
+				410667DB1FE5B08700683E5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		410667DE1FE5B08700683E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410667DF1FE5B08700683E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410667E31FE5B08700683E5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410667E41FE5B08700683E5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410667E71FE5B08700683E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410667E81FE5B08700683E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410667EA1FE5B08700683E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F50EFE410FFD3A742BADD75 /* Pods-TramTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TramTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongdec.TramTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		410667EB1FE5B08700683E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA5FCF9C31A78B8954B3624 /* Pods-TramTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TramTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pongdec.TramTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410667D21FE5B08700683E5D /* Build configuration list for PBXProject "TramTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410667E71FE5B08700683E5D /* Debug */,
+				410667E81FE5B08700683E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410667E91FE5B08700683E5D /* Build configuration list for PBXNativeTarget "TramTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410667EA1FE5B08700683E5D /* Debug */,
+				410667EB1FE5B08700683E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410667CF1FE5B08700683E5D /* Project object */;
+}
